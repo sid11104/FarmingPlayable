@@ -1,0 +1,36 @@
+{
+  "name": "SetAI-Assignment",
+  "version": "1.0.0",
+  "description": "three js playable assignment",
+  "scripts": {
+    "dev": "playable-scripts dev",
+    "build": "playable-scripts build"
+  },
+  "keywords": [
+    "playable",
+    "ads",
+    "template",
+    "three",
+    "threejs",
+    "webgl",
+    "3d",
+    "typescript",
+    "game"
+  ],
+  "author": "Smoud",
+  "dependencies": {
+    "@smoud/playable-sdk": "^1.0.17",
+    "@types/gsap": "^1.20.2",
+    "gsap": "^3.13.0",
+    "pixi.js": "^6.5.8",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@smoud/playable-scripts": "^1.0.18",
+    "@types/three": "^0.175.0",
+    "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+/* Make sure clickable PIXI elements still receive events */
+#pixi-canvas .interactive {
+  pointer-events: auto;
+}
+#pixi-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  mix-blend-mode: normal; 
+  pointer-events: auto; 
+}
+body {
+  height: inherit;
+  width: inherit;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
